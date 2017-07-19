@@ -32,7 +32,8 @@ Then go to the all posts screen to see the filter above the table.
 == Frequently Asked Questions ==
 
 == Screenshots ==
-1. List of filters
+1. Settings
+2. Filters in action
 
 == Changelog ==
 
