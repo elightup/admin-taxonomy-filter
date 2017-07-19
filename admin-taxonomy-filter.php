@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Admin Taxonomy Filter
- * Plugin URI: https://metabox.io
+ * Plugin URI: https://wordpress.org/plugins/admin-taxonomy-filter/
  * Description: Filter posts or custom post types by taxonomy in the admin area.
  * Version: 1.0
  * Author: Anh Tran
