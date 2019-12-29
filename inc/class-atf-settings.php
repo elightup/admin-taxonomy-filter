@@ -1,25 +1,10 @@
 <?php
-/**
- * The main controller that filter posts by taxonomies.
- *
- * @package Admin Taxonomy Filter
- */
-
-/**
- * Settings class.
- */
 class ATF_Settings {
-	/**
-	 * Add hooks.
-	 */
 	public function init() {
 		add_action( 'admin_menu', array( $this, 'add_menu_page' ) );
 		add_action( 'admin_init', array( $this, 'register_settings' ) );
 	}
 
-	/**
-	 * Add new menu page under Settings.
-	 */
 	public function add_menu_page() {
 		add_options_page(
 			__( 'Taxonomy Filter', 'admin-taxonomy-filter' ),
@@ -30,27 +15,37 @@ class ATF_Settings {
 		);
 	}
 
-	/**
-	 * Render settings page.
-	 */
 	public function render() {
 		?>
 		<div class="wrap">
 			<h1><?php esc_html_e( 'Admin Taxonomy Filter', 'admin-taxonomy-filter' ); ?></h1>
-			<form method="post" action="options.php">
-				<?php
-				settings_fields( 'admin_taxonomy_filter' );
-				do_settings_sections( 'admin-taxonomy-filter' );
-				submit_button();
-				?>
-			</form>
+			<div id="poststuff">
+				<div id="post-body" class="metabox-holder columns-2">
+					<form method="post" action="options.php" id="post-body-content">
+						<?php
+						settings_fields( 'admin_taxonomy_filter' );
+						do_settings_sections( 'admin-taxonomy-filter' );
+						submit_button();
+						?>
+					</form>
+					<div id="postbox-container-1" class="postbox-container">
+						<div class="postbox">
+							<h3 class="hndle">
+								<span><?php esc_html_e( 'Our WordPress Plugins', 'falcon' ) ?></span>
+							</h3>
+							<div class="inside">
+								<p><?php esc_html_e( 'Like this plugin? Check out our other WordPress plugins:', 'falcon' ) ?></p>
+								<p><a href="https://wordpress.org/plugins/meta-box/" target="_blank">Meta Box</a> - <?php esc_html_e( 'Lightweight yet powerful WordPress custom fields plugin', 'falcon' ) ?></p>
+								<p><a href="https://wordpress.org/plugins/slim-seo/" target="_blank">Slim SEO</a> - <?php esc_html_e( 'Automated & fast SEO plugin for WordPress', 'falcon' ) ?></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<?php
 	}
 
-	/**
-	 * Register plugin settings.
-	 */
 	public function register_settings() {
 		add_settings_section(
 			'general',
@@ -70,9 +65,6 @@ class ATF_Settings {
 		register_setting( 'admin_taxonomy_filter', 'admin_taxonomy_filter' );
 	}
 
-	/**
-	 * Render list of taxonomies.
-	 */
 	public function list_taxonomies() {
 		$option     = get_option( 'admin_taxonomy_filter' );
 		$post_types = get_post_types();
