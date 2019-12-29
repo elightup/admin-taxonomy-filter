@@ -1,25 +1,11 @@
 <?php
-/**
- * The main controller that filter posts by taxonomies.
- *
- * @package Admin Taxonomy Filter
- */
-
-/**
- * Main controller class.
- */
 class ATF_Controller {
 	/**
 	 * Current post type.
-	 *
-	 * @var string
 	 */
 	public $post_type;
 
-	/**
-	 * Add hooks.
-	 */
-	public function init() {
+	public function __construct() {
 		add_action( 'restrict_manage_posts', array( $this, 'output_filters' ) );
 	}
 
