@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: Admin Taxonomy Filter
- * Plugin URI:  https://elightup.com/products/
+ * Plugin URI:  https://elightup.com
  * Description: Filter posts or custom post types by taxonomy in the admin area.
- * Version:     1.0.1
+ * Version:     1.0.2
  * Author:      eLightUp
  * Author URI:  https://elightup.com
  * License:     GPL2+
@@ -16,11 +16,9 @@ defined( 'ABSPATH' ) || die;
 if ( is_admin() ) {
 	require __DIR__ . '/inc/controller.php';
 	require __DIR__ . '/inc/settings.php';
-	require __DIR__ . '/inc/recommendation.php';
 
 	new ATF_Controller;
 	new ATF_Settings;
-	new ATF_Recommendation;
 }
 
 add_action( 'init', function () {
