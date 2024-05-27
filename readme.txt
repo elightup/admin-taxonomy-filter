@@ -3,7 +3,7 @@ Contributors: elightup, rilwis
 Donate link: https://paypal.me/anhtnt
 Tags: taxonomy filter, post filter, admin, taxonomy, taxonomies, post list
 Requires at least: 4.3
-Tested up to: 5.9.1
+Tested up to: 6.5.3
 Stable tag: 1.0.2
 License: GPLv2 or later
 
@@ -17,7 +17,16 @@ The plugin supports filter by multiple taxonomies and has settings to let you ch
 
 The plugin is open source and hosted on [Github](https://github.com/rilwis/admin-taxonomy-filter/). If you have any problem or feedback, please open an issue.
 
-If you like this plugin, you might like [Meta Box](https://metabox.io).
+### You might also like
+
+If you like this plugin, you might also like our other WordPress products:
+
+- [Meta Box](https://metabox.io) - A powerful WordPress plugin for creating custom post types and custom fields.
+- [Slim SEO](https://wpslimseo.com) - A fast, lightweight and full-featured SEO plugin for WordPress with minimal configuration.
+- [Slim SEO Schema](https://wpslimseo.com/products/slim-seo-schema/) - An advanced, powerful and flexible plugin to add schemas to WordPress.
+- [Slim SEO Link Manager](https://wpslimseo.com/products/slim-seo-link-manager/) - Build internal link easier in WordPress with real-time reports.
+- [GretaThemes](https://gretathemes.com) - Free and premium WordPress themes that clean, simple and just work.
+- [Auto Listings](https://wpautolistings.com) - A car sale and dealership plugin for WordPress.
 
 == Installation ==
 
