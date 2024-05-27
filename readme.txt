@@ -1,10 +1,10 @@
 === Admin Taxonomy Filter ===
 Contributors: elightup, rilwis
 Donate link: https://paypal.me/anhtnt
-Tags: taxonomy filter, post filter, admin, taxonomy, taxonomies, post list
+Tags: taxonomy filter, post filter, admin, taxonomy, post list
 Requires at least: 4.3
 Tested up to: 6.5.3
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 
 Filter posts or custom post types in the admin area by custom taxonomies.
@@ -45,6 +45,9 @@ Then go to the all posts screen to see the filter above the table.
 2. Filters in action
 
 == Changelog ==
+
+= 1.0.3 =
+- Update compatibility with the latest version of WordPress
 
 = 1.0.2 =
 - Update compatibility tags
