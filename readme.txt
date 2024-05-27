@@ -17,8 +17,6 @@ The plugin supports filter by multiple taxonomies and has settings to let you ch
 
 The plugin is open source and hosted on [Github](https://github.com/rilwis/admin-taxonomy-filter/). If you have any problem or feedback, please open an issue.
 
-If you like this plugin, you might like [Meta Box](https://metabox.io).
-
 ### You might also like
 
 If you like this plugin, you might also like our other WordPress products:
