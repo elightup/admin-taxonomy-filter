@@ -50,7 +50,7 @@ class ATF_Controller {
 			'order'           => 'ASC',
 			'hide_empty'      => false,
 			'hide_if_empty'   => true,
-			'selected'        => filter_input( INPUT_GET, $taxonomy->query_var, FILTER_SANITIZE_STRING ),
+			'selected'        => filter_input( INPUT_GET, $taxonomy->query_var, FILTER_SANITIZE_FULL_SPECIAL_CHARS ),
 			'hierarchical'    => true,
 			'name'            => $taxonomy->query_var,
 			'taxonomy'        => $taxonomy->name,
