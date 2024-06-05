@@ -44,13 +44,14 @@ class ATF_Controller {
 	 * @param \WP_Taxonomy $taxonomy The taxonomy object.
 	 */
 	protected function output_filter_for( $taxonomy ) {
+		$selected = (string) filter_input( INPUT_GET, $taxonomy->query_var );
 		wp_dropdown_categories( array(
 			'show_option_all' => sprintf( __( 'All %s', 'admin-taxonomy-filter' ), $taxonomy->label ),
 			'orderby'         => 'name',
 			'order'           => 'ASC',
 			'hide_empty'      => false,
 			'hide_if_empty'   => true,
-			'selected'        => filter_input( INPUT_GET, $taxonomy->query_var, FILTER_SANITIZE_FULL_SPECIAL_CHARS ),
+			'selected'        => $selected,
 			'hierarchical'    => true,
 			'name'            => $taxonomy->query_var,
 			'taxonomy'        => $taxonomy->name,
