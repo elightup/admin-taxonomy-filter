@@ -3,7 +3,7 @@
  * Plugin Name: Admin Taxonomy Filter
  * Plugin URI:  https://elightup.com
  * Description: Filter posts or custom post types by taxonomy in the admin area.
- * Version:     1.0.3
+ * Version:     1.0.4
  * Author:      eLightUp
  * Author URI:  https://elightup.com
  * License:     GPL2+
