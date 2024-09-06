@@ -31,13 +31,13 @@ class ATF_Settings {
 					<div id="postbox-container-1" class="postbox-container">
 						<div class="postbox">
 							<h3 class="hndle">
-								<span><?php esc_html_e( 'Our WordPress Plugins', 'falcon' ) ?></span>
+								<span><?php esc_html_e( 'Our WordPress Plugins', 'admin-taxonomy-filter' ) ?></span>
 							</h3>
 							<div class="inside">
-								<p><?php esc_html_e( 'Like this plugin? Check out our other WordPress plugins:', 'falcon' ) ?></p>
-								<p><a href="https://metabox.io" target="_blank">Meta Box</a> - <?php esc_html_e( 'Lightweight yet powerful WordPress custom fields plugin', 'falcon' ) ?></p>
-								<p><a href="https://wpslimseo.com" target="_blank">Slim SEO</a> - <?php esc_html_e( 'Automated & fast SEO plugin for WordPress', 'falcon' ) ?></p>
-								<p><a href="https://wordpress.org/plugins/falcon/" target="_blank">Falcon</a> - <?php esc_html_e( 'WordPress optimization and tweaks plugin', 'falcon' ) ?></p>
+								<p><?php esc_html_e( 'Like this plugin? Check out our other WordPress plugins:', 'admin-taxonomy-filter' ) ?></p>
+								<p><a href="https://metabox.io" target="_blank">Meta Box</a> - <?php esc_html_e( 'Lightweight yet powerful WordPress custom fields plugin', 'admin-taxonomy-filter' ) ?></p>
+								<p><a href="https://wpslimseo.com" target="_blank">Slim SEO</a> - <?php esc_html_e( 'Automated & fast SEO plugin for WordPress', 'admin-taxonomy-filter' ) ?></p>
+								<p><a href="https://wordpress.org/plugins/falcon/" target="_blank">Falcon</a> - <?php esc_html_e( 'WordPress optimization and tweaks plugin', 'admin-taxonomy-filter' ) ?></p>
 							</div>
 						</div>
 					</div>
