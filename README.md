@@ -21,3 +21,12 @@ If you like this plugin, you might like [Meta Box](https://metabox.io).
 After installing, go to **Settings | Taxonomy Filter** and select the taxonomies you want to filter for each custom post type.
 
 Then go to the all posts screen to see the filter above the table.
+
+### You might also like
+
+If you like this plugin, you might also like our other WordPress products:
+
+- [Meta Box](https://metabox.io) - A powerful WordPress plugin for creating custom post types and custom fields.
+- [Slim SEO](https://wpslimseo.com) - A fast, lightweight and full-featured SEO plugin for WordPress with minimal configuration.
+- [GretaThemes](https://gretathemes.com) - Free and premium WordPress themes that clean, simple and just work.
+- [Auto Listings](https://wpautolistings.com) - A car sale and dealership plugin for WordPress.
